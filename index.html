@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media dashboard</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+</head>
+<body>
+    <h1>Social Media Dashboard</h1>
+    <h6>Total Followers: 23,004</h6>
+    <div class="container0">
+        <label class="toggle-switch">
+            <input type="checkbox" id="myToggle">
+            <span class="slider" onclick="myFunction()"></span>
+        </label>
+    </div><br><br><br><br>
+    <div class="container">
+        <div class="card" style="border-top: 5px solid #3b5998;">
+            <h2 style="font-size: 12px;"><img src="download.jpg" alt="Facebook" style="width: 20px; height: 20px; margin-right: 5px; justify-content:right; border-radius: 50%;">Facebook</h2>
+            <p style="font-size: 44px;">1987</p>
+            <p style="font-size: 12px;">F O L L O W E R S</p>
+            <p style="font-size: 10px;"><i class="fas fa-arrow-up"></i> 12 Today</p>
+        </div>
+        <div class="card" style="border-top: 5px solid #7293da;">
+            <h2 style="font-size: 12px;"><img src="download.png" alt="Tweeter" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 15%;">Twitter</h2>
+            <p style="font-size: 44px;">1044</p>
+            <p style="font-size: 12px;">F O L L O W E R S</p>
+            <p style="font-size: 10px;"><i class="fas fa-arrow-up"></i> 95 Today</p>
+        </div>
+        <div class="card" style="border-top: 5px solid #ad611d;">
+            <h2 style="font-size: 12px;"><img src="download (1).jpg" alt="Instagram" style="width: 20px; height: 20px; margin-right: 5px; justify-content:right; border-radius: 50%;">Instagram</h2>
+            <p style="font-size: 44px;">11K</p>
+            <p style="font-size: 12px;">F O L L O W E R S</p>
+            <p style="font-size: 10px;"><i class="fas fa-arrow-up"></i> 1099 Today</p>
+        </div>
+        <div class="card" style="border-top: 5px solid #aca10b;">
+            <h2 style="font-size: 12px;"><img src="download (1).png" alt="LinkedIn" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 20%;">LinkedIn</h2>
+            <p style="font-size: 44px;">8239</p>
+            <p style="font-size: 12px;">F O L L O W E R S</p>
+            <p style="font-size: 10px;"><i class="fas fa-arrow-down"></i>144 Today</p>
+        </div>
+    </div>
+    <h3>Overview- Today</h3>
+    <div class="container2">
+        <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download.jpg" alt="Facebook" style="width: 20px; height: 20px; margin-right: 5px; justify-content:right; border-radius: 50%;">Page Views</h2>
+            <p style="font-size: 37px; text-align: right;">87</p>
+        </div>
+        <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download.jpg" alt="Facebook" style="width: 20px; height: 20px; margin-right: 5px; justify-content:right; border-radius: 50%;">Likes</h2>
+            <p style="font-size: 37px; text-align: right;">52</p>
+        </div>
+        <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download (1).jpg" alt="Instagram" style="width: 20px; height: 20px; margin-right: 5px; justify-content:right; border-radius: 50%;">Likes</h2>
+            <p style="font-size: 37px; text-align: right;">5462</p>
+        </div>
+        <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download (1).jpg" alt="Instagram" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 50%;">Profile views</h2>
+            <p style="font-size: 37px; text-align: right;">52k</p>
+        </div>
+    </div>
+        <div class="container3">
+         <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download.png" alt="Tweeter" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 15%;">Retweets</h2>
+            <p style="font-size: 37px; text-align: right;">117</p>
+        </div>
+         <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download.png" alt="Tweeter" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 15%;">Likes</h2>
+            <p style="font-size: 37px; text-align: right;">507</p>
+        </div>
+         <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download (1).png" alt="LinkedIn" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 20%;">Likes</h2>
+            <p style="font-size: 37px; text-align: right;">107</p>
+        </div>
+         <div class="card">
+            <h2 style="font-size: 12px; text-align: right;"><img src="download (1).png" alt="LinkedIn" style="width: 20px; height: 20px; margin-right: 5px; border-radius: 20%;">Total Views</h2>
+            <p style="font-size: 37px; text-align: right;">1407</p>
+        </div>
+    </div>
+    <script>
+        function myFunction(){
+            var element=document.body;
+            element.classList.toggle("dark-mode");
+        }
+    </script>
+</body>
+</html>
